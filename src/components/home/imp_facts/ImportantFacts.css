@@ -1,0 +1,116 @@
+.fun-factor-area {
+  background: rgba(0, 0, 0, 0) url(../../images/banner/2.jpg) repeat scroll 0 0 !important;
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+.section-title-wrapper {
+  margin-bottom: 87px;
+  position: relative;
+}
+
+.section-title-wrapper.white:before {
+  background: #ffffff none repeat scroll 0 0 !important;
+}
+
+.section-title-wrapper:before {
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 230px;
+  box-sizing: border-box;
+}
+
+.section-title {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.white.section-title-wrapper:after {
+  background: rgba(0, 0, 0, 0) url(../../images/icon/cap-white.jpg) repeat
+    scroll 0 0 !important;
+}
+
+.section-title-wrapper:after {
+  box-sizing: border-box;
+  bottom: -8px;
+  color: #1bb4b9;
+  content: "";
+  font-size: 14px;
+  height: 20px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 40px;
+  z-index: 9;
+}
+
+.s-t-if h3 {
+  color: #ffffff !important;
+  font-size: 30px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  margin: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.white .section-title p {
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 24px;
+  transition: all 0.3s ease 0s;
+}
+
+.single-fun-factor {
+  text-align: center;
+}
+
+@media(max-width: 768px) {
+  .single-fun-factor{
+    margin-top: 50px;
+  }
+}
+
+.single-fun-factor > h4 {
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 41px !important;
+  position: relative;
+  margin: 0;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+}
+
+.single-fun-factor > h4:after {
+  background: #ffffff none repeat scroll 0 0;
+  bottom: -11px;
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 77px;
+}
+
+.single-fun-factor h2 {
+  font-size: 62px;
+  line-height: 46px;
+  margin: 0;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+}
+
+.single-fun-factor h2 .counter {
+  transition: all 0.3s ease 0s;
+}

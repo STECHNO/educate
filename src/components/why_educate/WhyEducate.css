@@ -1,0 +1,107 @@
+.about-area {
+  background: rgba(0, 0, 0, 0) url(../images/banner/1.jpg) repeat scroll 0 0 !important;
+  color: #ffffff;
+  margin-top: 140px;
+  padding-bottom: 54px;
+  position: relative;
+}
+
+.about-area:before {
+  background: #86bc42;
+  height: 110px;
+  left: 0px;
+  right: auto;
+  top: -20px;
+  width: 49.2%;
+  content: "";
+  position: absolute;
+}
+
+.about-area:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #86bc42 #86bc42;
+  border-width: 55px 30px;
+  left: 49.2%;
+  top: -20px;
+  right: auto;
+  width: 0;
+  content: "";
+  height: 5px;
+  position: absolute;
+  border-image: none;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.about-container {
+  margin-left: 70px;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+  .about-container {
+    margin-left: 10px;
+  }
+
+  .about-area:before {
+    background: #86bc42;
+    height: 110px;
+    left: 0px;
+    right: auto;
+    top: -20px;
+    width: 70%;
+    content: "";
+    position: absolute;
+  }
+
+  .about-area:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #86bc42 #86bc42;
+    border-width: 55px 30px;
+    left: 70%;
+    top: -20px;
+    right: auto;
+    width: 0;
+    content: "";
+    height: 5px;
+    position: absolute;
+    border-image: none;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+}
+
+.about-container h3 {
+  font-size: 30px;
+  margin-bottom: 79px;
+  padding-top: 22px;
+  z-index: 9;
+  position: relative;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.about-container p {
+  line-height: 26px;
+  margin-bottom: 42px;
+  margin-top: 0;
+}
+
+.about-container .button-default {
+  background: #86bc42;
+  padding: 9px 41px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.about-container a {
+  text-decoration: none;
+}
+
+.about-container a:hover {
+  background: #ffffff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #000;
+}
